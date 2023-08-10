@@ -176,6 +176,13 @@ width: 7rem;
   list-style-type:circle ;
 }
 
+dt{
+  font-weight: bold;
+}
+dd{
+  margin-left: 2rem;
+}
+
 .game-info-contacto{
   display:flex;
   flex-direction: row;
