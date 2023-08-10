@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0%;
+  padding-top: 0px;
+  height: 100%;
+}
+
+header {
+display:flex;
+flex-direction: column;
+height: 30%;
+}
+
+.barra-superior {
+display:flex;
+justify-content: space-between;
+align-items:start;
+}
+
+/* Estilos para el encabezado */
+.imagen_header {
+  content: url("../../assets/images/design1_image2.jpg");
+  width: 100%;
+  height: 350px;
+  margin-top: 0%;
+  display:flex;
+}
+
+/* Nombre del club */
+.nombre_club {
+  font-size: 46px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+
+/* Titulo de cada pagina */
+.titulo_pagina {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0px 0;
+  font-size: 18px;
+  transform: translatey(-1rem);
+}
+
+/* Logo del club */
+.logo {
+  width: 150px;
+}
+
+aside {
+display: flex;
+flex-direction: column;
+width: 30%;
+height: 50%; 
+justify-content: center;
+padding-left: 1rem;
+}
+
+/* section{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+section article{
+  padding:20px;
+}
+ */
+.seccion{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.seccion article{
+  padding:20px;
+}
+
+
+
+/* Parrafo donde esta el mail de contacto */
+.email {
+  margin-left: 5%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%; 
+}  
+
+/* Barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items:start;
+  margin-top: 0%;
+  margin-right: 5%;
+  transform: translatey(20px);
+}
+
+.nav-enlace {
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: #1e90ff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.link-activo{
+  background-color: #00ff00;
+}
+
+/* Pie de pagina */
+footer {
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+ }
+
+
+table, tr, th ,td { 
+  border-collapse: separate;
+  border-spacing: 10px; 
+}
+
+.align-left {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.date {
+width: 8rem;
+}
+
+.teams {
+width: 8rem;
+}
+
+.location {
+width: 15rem;
+}
+
+.times{
+width: 7rem;
+}
+
+.lista-ordenada-02{
+  list-style-type: lower-alpha;
+}
+
+.lista-desordenada-01{
+  list-style-type:circle ;
+}
+
+.game-info-contacto{
+  display:flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: flex-start;
+  gap:150px;
+}
+
+.h2-subrayado{
+  text-decoration: underline; 
+}
